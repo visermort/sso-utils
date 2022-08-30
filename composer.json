@@ -8,6 +8,9 @@
   },
   "extra": {
     "laravel": {
+      "providers": [
+        "Erg\\SsoUtils\\SsoUtilsServiceProvider"
+      ]
     }
   },
   "autoload": {
