@@ -33,6 +33,7 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
 use Tests\Helpers\Constants;
 use Illuminate\Support\Facades\Http as HttpClient;
+use Erg\SsoUtils\SsoClient;
 
 /**
  * Class Sso
@@ -41,7 +42,7 @@ use Illuminate\Support\Facades\Http as HttpClient;
 class SsoUtils
 {
 
-    protected ?SsoClient $ssoClient;
+    protected SsoClient $ssoClient;
 
     protected ?string $userId;
 

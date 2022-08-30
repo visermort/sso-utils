@@ -7,10 +7,9 @@ namespace Erg\SsoUtils;
 
 use Erg\Client\Sso\SsoClient as BaseSsoClient;
 use Erg\Client\Sso\Request;
-use Erg\Client\InternalAuth\InternalAuth;
 use Erg\Client\SsoAuth\InternalAuthContext;
 use GuzzleHttp\Client as HttpClient;
-use App\Utils\Sso\Entities\Position;
+use Erg\SsoUtils\Entities\Position;
 use Erg\Client\Sso\Http\Middleware\UnauthorizedException;
 
 /**
