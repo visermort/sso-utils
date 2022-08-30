@@ -1,0 +1,18 @@
+{
+  "name": "visermort/sso-utils",
+  "description": "Tools for use sso",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0.2"
+  },
+  "extra": {
+    "laravel": {
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Erg\\SsoUtils\\": "src/SsoUtils"
+    }
+  }
+}
